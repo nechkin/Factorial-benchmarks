@@ -5,6 +5,15 @@ Inspired by and based on:
 * https://habrahabr.ru/post/255813/
 * https://habrahabr.ru/post/255761/
 
+Uses [JML](http://openjdk.java.net/projects/code-tools/jmh/) to do the benchmarking. 
+
+***How to run***
+
+```
+mvn clean install
+java -jar target/benchmarks.jar
+```
+
 ***Benchmark result:***
 
 Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz
