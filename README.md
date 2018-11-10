@@ -71,3 +71,64 @@ MyBenchmark.testStreamedShift           1000  avgt   20      512.447 ±     2.58
 MyBenchmark.testStreamedShift          10000  avgt   20    65010.984 ±  3181.843  us/op
 MyBenchmark.testStreamedShift          50000  avgt   20  1882692.405 ± 11696.611  us/op
 ```
+
+Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+
+```
+Benchmark                                (n)  Mode  Cnt       Score       Error  Units
+MyBenchmark.testFactFactorization         10  avgt   20       0,250 ±     0,007  us/op
+MyBenchmark.testFactFactorization        100  avgt   20       2,242 ±     0,074  us/op
+MyBenchmark.testFactFactorization       1000  avgt   20      78,634 ±     2,613  us/op
+MyBenchmark.testFactFactorization      10000  avgt   20    9201,430 ±   219,746  us/op
+MyBenchmark.testFactFactorization      50000  avgt   20  280531,670 ±  7423,222  us/op
+MyBenchmark.testFactShift                 10  avgt   20       0,244 ±     0,007  us/op
+MyBenchmark.testFactShift                100  avgt   20       3,606 ±     0,114  us/op
+MyBenchmark.testFactShift               1000  avgt   20     156,331 ±     6,954  us/op
+MyBenchmark.testFactShift              10000  avgt   20   19168,038 ±   706,043  us/op
+MyBenchmark.testFactShift              50000  avgt   20  522962,954 ± 16136,208  us/op
+MyBenchmark.testFactShiftTree             10  avgt   20       0,262 ±     0,007  us/op
+MyBenchmark.testFactShiftTree            100  avgt   20       3,870 ±     0,190  us/op
+MyBenchmark.testFactShiftTree           1000  avgt   20      50,096 ±     2,552  us/op
+MyBenchmark.testFactShiftTree          10000  avgt   20    1760,467 ±    83,710  us/op
+MyBenchmark.testFactShiftTree          50000  avgt   20   24382,022 ±   537,654  us/op
+MyBenchmark.testFactShiftTreeForkJoin     10  avgt   20      16,463 ±     0,160  us/op
+MyBenchmark.testFactShiftTreeForkJoin    100  avgt   20      31,198 ±     0,162  us/op
+MyBenchmark.testFactShiftTreeForkJoin   1000  avgt   20      65,820 ±     1,556  us/op
+MyBenchmark.testFactShiftTreeForkJoin  10000  avgt   20    1171,646 ±    32,452  us/op
+MyBenchmark.testFactShiftTreeForkJoin  50000  avgt   20   14627,024 ±   357,196  us/op
+MyBenchmark.testFactTree                  10  avgt   20       0,147 ±     0,004  us/op
+MyBenchmark.testFactTree                 100  avgt   20       2,540 ±     0,078  us/op
+MyBenchmark.testFactTree                1000  avgt   20      33,496 ±     1,409  us/op
+MyBenchmark.testFactTree               10000  avgt   20    1823,560 ±    88,732  us/op
+MyBenchmark.testFactTree               50000  avgt   20   27823,839 ±  1022,714  us/op
+MyBenchmark.testFourBlocks                10  avgt   20       0,328 ±     0,010  us/op
+MyBenchmark.testFourBlocks               100  avgt   20       3,784 ±     0,135  us/op
+MyBenchmark.testFourBlocks              1000  avgt   20      74,276 ±     2,289  us/op
+MyBenchmark.testFourBlocks             10000  avgt   20    7047,825 ±   208,759  us/op
+MyBenchmark.testFourBlocks             50000  avgt   20  182640,939 ±  9012,697  us/op
+MyBenchmark.testNaive                     10  avgt   20       0,263 ±     0,005  us/op
+MyBenchmark.testNaive                    100  avgt   20       4,045 ±     0,141  us/op
+MyBenchmark.testNaive                   1000  avgt   20     184,440 ±     9,611  us/op
+MyBenchmark.testNaive                  10000  avgt   20   20956,157 ±   822,248  us/op
+MyBenchmark.testNaive                  50000  avgt   20  594264,702 ± 20885,791  us/op
+MyBenchmark.testStreamed                  10  avgt   20       0,277 ±     0,009  us/op
+MyBenchmark.testStreamed                 100  avgt   20       4,094 ±     0,185  us/op
+MyBenchmark.testStreamed                1000  avgt   20     160,802 ±     5,950  us/op
+MyBenchmark.testStreamed               10000  avgt   20   20089,014 ±   700,531  us/op
+MyBenchmark.testStreamed               50000  avgt   20  566642,732 ± 15943,290  us/op
+MyBenchmark.testStreamedParallel          10  avgt   20      11,551 ±     0,375  us/op
+MyBenchmark.testStreamedParallel         100  avgt   20      20,562 ±     0,231  us/op
+MyBenchmark.testStreamedParallel        1000  avgt   20      42,384 ±     1,478  us/op
+MyBenchmark.testStreamedParallel       10000  avgt   20    1373,647 ±    20,357  us/op
+MyBenchmark.testStreamedParallel       50000  avgt   20   22250,542 ±   343,414  us/op
+MyBenchmark.testStreamedParallelShift     10  avgt   20      11,434 ±     0,165  us/op
+MyBenchmark.testStreamedParallelShift    100  avgt   20      21,052 ±     0,270  us/op
+MyBenchmark.testStreamedParallelShift   1000  avgt   20      39,929 ±     0,502  us/op
+MyBenchmark.testStreamedParallelShift  10000  avgt   20    1243,644 ±    21,475  us/op
+MyBenchmark.testStreamedParallelShift  50000  avgt   20   20986,001 ±   420,476  us/op
+MyBenchmark.testStreamedShift             10  avgt   20       0,307 ±     0,007  us/op
+MyBenchmark.testStreamedShift            100  avgt   20       3,969 ±     0,112  us/op
+MyBenchmark.testStreamedShift           1000  avgt   20     143,929 ±     5,329  us/op
+MyBenchmark.testStreamedShift          10000  avgt   20   18287,292 ±   528,179  us/op
+MyBenchmark.testStreamedShift          50000  avgt   20  528949,557 ± 14937,280  us/op
+```
