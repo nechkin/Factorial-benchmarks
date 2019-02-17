@@ -131,4 +131,10 @@ MyBenchmark.testStreamedShift            100  avgt   20       3,969 ±     0,112
 MyBenchmark.testStreamedShift           1000  avgt   20     143,929 ±     5,329  us/op
 MyBenchmark.testStreamedShift          10000  avgt   20   18287,292 ±   528,179  us/op
 MyBenchmark.testStreamedShift          50000  avgt   20  528949,557 ± 14937,280  us/op
+MyBenchmark.testFactShiftTreeForkJoinMinSize     10  avgt   20     12,881 ?  0,679  us/op
+MyBenchmark.testFactShiftTreeForkJoinMinSize    100  avgt   20     30,291 ?  0,081  us/op
+MyBenchmark.testFactShiftTreeForkJoinMinSize   1000  avgt   20     60,077 ?  0,253  us/op
+MyBenchmark.testFactShiftTreeForkJoinMinSize  10000  avgt   20   1130,127 ?  5,061  us/op
+MyBenchmark.testFactShiftTreeForkJoinMinSize  50000  avgt   20  13951,768 ? 70,605  us/op
+
 ```

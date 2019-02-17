@@ -105,4 +105,9 @@ public class MyBenchmark {
         bh.consume(FactFactorization.fact(n));
     }
 
+    @Benchmark
+    public void testFactShiftTreeForkJoinMinSize(Blackhole bh) {
+        bh.consume(FactShiftTreeForkJoinMinSize.fact(FactShiftTreeForkJoin.sharedPool, n, 10));
+    }
+
 }

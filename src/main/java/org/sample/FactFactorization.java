@@ -51,7 +51,7 @@ public class FactFactorization {
             notPrime[j] = true;
         }
 
-        for (int i = 3; i <= n; ++i) {
+        for (int i = 3; i <= n; i += 2) {
             if (notPrime[i]) {
                 // searching the next not visited item
                 continue;
@@ -63,6 +63,8 @@ public class FactFactorization {
             }
 
             // e.g. i = 5. 2 * 5 is visited by i = 2. 3 * 5 is visited by i = 3. etc. so we start from 5 * 5.
+            // j += 2 * i not i to skip even multiples of i, marking only odd multiples of i.
+            // E.g for 5: 5*5 = 25. 25 + 5 is even (already marked). 25 + 2*5 = 35 - marking it, etc.
             for (int j = pow; j <= n; j += 2 * i) {
                 notPrime[j] = true;
             }
